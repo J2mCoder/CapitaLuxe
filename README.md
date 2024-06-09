@@ -44,5 +44,3 @@ npm start
 ## Besoin d'Aide ?
 
 Si vous rencontrez des problèmes lors de l'installation ou de l'exécution du projet, n'hésitez pas à nous contacter à [jeandedieumbumba2802@gmail.com](mailto:jeandedieumbumba2802@gmail.com). Nous sommes là pour vous aider !
-
-Vous pouvez copier-coller ce contenu dans un fichier README.md pour l'utiliser dans votre projet.
