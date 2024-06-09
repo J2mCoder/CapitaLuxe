@@ -11,14 +11,19 @@ Avant de commencer, assurez-vous d'avoir Node.js installé sur votre machine. Vo
 ### Installation
 
 1. Clonez ce référentiel en utilisant la commande suivante :
+
    ```
-   git clone <URL_DU_REPO>
+   git clone https://github.com/J2mCoder/CapitaLuxe.git
    ```
+
 2. Accédez au répertoire frontend :
+
    ```
-   cd frontend
+   cd CapitaLuxe
    ```
+
 3. Installez les dépendances en exécutant la commande suivante :
+
    ```
    npm install
    ```
