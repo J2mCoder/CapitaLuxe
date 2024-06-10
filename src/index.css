@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+:root {
+  --primary-100: #2c3a4f;
+  --primary-200: #56647b;
+  --primary-300: #b4c2dc;
+  --accent-100: #ff4d4d;
+  --accent-200: #ffecda;
+  --text-100: #ffffff;
+  --text-200: #e0e0e0;
+  --bg-100: #1a1f2b;
+  --bg-150: #1a1f2bbb;
+  --bg-200: #292e3b;
+  --bg-300: #414654;
+}
+
+.home-bg {
+  position: relative;
+}
+
+.home-bg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.home-bg .content {
+  position: relative;
+  z-index: 2;
+  color: var(--text-200);
+}
