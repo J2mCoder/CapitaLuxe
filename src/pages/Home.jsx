@@ -24,7 +24,7 @@ export default function Home() {
           </span>
           <span className="mt-5 flex justify-center items-center animate-bounce">
             <Link
-              to="about"
+              to="services"
               smooth={true}
               duration={500}
               className="text-[var(--accent-100)] cursor-pointer flex justify-center items-center space-x-3">

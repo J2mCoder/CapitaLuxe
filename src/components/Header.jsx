@@ -34,35 +34,35 @@ export default function Header() {
               to="home"
               smooth={true}
               duration={200}
-              className="text-xl font-semibold cursor-pointer">
+              className="text-xl font-semibold cursor-pointer hover:text-[var(--accent-100)] hover:underline hover:underline-offset-4  transition-all">
               Home
             </Link>
             <Link
               to="about"
               smooth={true}
               duration={200}
-              className="text-xl font-semibold cursor-pointer">
+              className="text-xl font-semibold cursor-pointer hover:text-[var(--accent-100)] hover:underline hover:underline-offset-4 transition-all">
               About
             </Link>
             <Link
               to="services"
               smooth={true}
               duration={200}
-              className="text-xl font-semibold cursor-pointer">
+              className="text-xl font-semibold cursor-pointer hover:text-[var(--accent-100)] hover:underline hover:underline-offset-4 transition-all">
               Services
             </Link>
             <Link
               to="team"
               smooth={true}
               duration={200}
-              className="text-xl font-semibold cursor-pointer">
+              className="text-xl font-semibold cursor-pointer hover:text-[var(--accent-100)] hover:underline hover:underline-offset-4 transition-all">
               Team
             </Link>
             <Link
               to="testimonies"
               smooth={true}
               duration={200}
-              className="text-xl font-semibold cursor-pointer">
+              className="text-xl font-semibold cursor-pointer hover:text-[var(--accent-100)] hover:underline hover:underline-offset-4 transition-all">
               Testimonies
             </Link>
           </div>

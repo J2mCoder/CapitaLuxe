@@ -16,7 +16,7 @@
   --text-100: #ffffff;
   --text-200: #e0e0e0;
   --bg-100: #1a1f2b;
-  --bg-150: #1a1f2bbb;
+  --bg-150: #1a1f2be7;
   --bg-200: #292e3b;
   --bg-300: #414654;
 }
@@ -39,4 +39,65 @@
   position: relative;
   z-index: 2;
   color: var(--text-200);
+}
+
+.mask-gradient {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -400px;
+  }
+}
+
+.item1 {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  border-radius: 6px;
+  position: absolute;
+  left: max(calc(270px * 8), 90%);
+  animation-name: scrollLeft;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.item1 {
+  animation-delay: calc(60s / 8 * (8 - 1) * -1);
+}
+
+.item2 {
+  animation-delay: calc(60s / 8 * (8 - 2) * -1);
+}
+
+.item3 {
+  animation-delay: calc(60s / 8 * (8 - 3) * -1);
+}
+
+.item4 {
+  animation-delay: calc(60s / 8 * (8 - 4) * -1);
+}
+
+.item5 {
+  animation-delay: calc(60s / 8 * (8 - 5) * -1);
+}
+
+.item6 {
+  animation-delay: calc(60s / 8 * (8 - 6) * -1);
+}
+
+.item7 {
+  animation-delay: calc(60s / 8 * (8 - 7) * -1);
+}
+
+.item8 {
+  animation-delay: calc(60s / 8 * (8 - 8) * -1);
 }
